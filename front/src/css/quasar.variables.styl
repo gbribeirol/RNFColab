@@ -1,0 +1,295 @@
+// Quasar Stylus Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Stylus variables found in Quasar's source Stylus files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.styl files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+// $primary   = #027BE3
+// $secondary = #26A69A
+// $accent    = #9C27B0
+
+// $positive  = #21BA45
+// $negative  = #C10015
+// $info      = #31CCEC
+// $warning   = #F2C037
+
+// app global css
+
+// desabilita seleção de texto com o cursor
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+* {
+  cursor: inherit;
+}
+
+body {
+  cursor: default;
+  user-select: none;
+}
+
+textarea {
+  cursor: text;
+  user-select: initial;
+}
+
+.q-btn {
+  font-size: 14px;
+  glossy rounded no-caps wait-for-ripple
+}
+
+.q-btn .q-icon {
+  cursor: pointer;
+  margin: 0px;
+  margin-right: 3px;
+  padding: 0px;
+}
+
+.q-icon {
+  cursor: pointer;
+  color: $color-icons-toolbar;
+  margin: 0px;
+  margin-right: 3px;
+  padding: 0px;
+}
+
+.ip-btn {
+    background-color: $bg-color-button;
+    border-radius: 4px;
+    color: $color-text-button;
+     box-shadow: 0 1px 5px $bg-color-button, 0 2px 2px rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
+    &.outline{
+      background-color: transparent;
+      border: 2px solid $bg-color-button;
+      color: $bg-color-button;
+      box-shadow: none;
+    }
+  }
+
+.t-blue {
+  background-color: $btn-primary-color;
+  color: #fff;
+}
+
+.shadow-blue {
+  box-shadow: 0px 3px 12px rgba(35, 150, 185, 0.57);
+}
+
+.title-headline {
+  font-weight: bold;
+  font-size: 19px;
+  color: $txt-primary-color;
+}
+
+.ip-text-2 {
+  font-weight: normal;
+  font-size: 21px;
+}
+
+.feed-back-popup {
+    background-color: #54A837;
+    border-radius: 40px 40px 0 40px!important;
+    &.feed-back-error{
+      background-color: #B41428;
+    }
+  }
+
+// #menu .q-item
+//   padding 8px 12px
+
+// #content
+//   code
+//     font-size 90% !important
+//   p > code
+//     color #286fa3
+//     padding 3px 5px
+//     margin 0 2px
+//     border-radius 2px
+//     border 1px solid #e6e6e6
+//     white-space pre-wrap
+//     display inline-block
+//     box-shadow 0 1px 1px rgba(0,0,0,.125)
+//     line-height 1em
+//   code, pre:not(.code.hightlight)
+//     background-color #f8f8f8
+//     font-family 'Roboto Mono',Monaco,courier,monospace
+//     font-size .8em
+//     -webkit-font-smoothing initial
+//     -moz-osx-font-smoothing initial
+
+//   a
+//     color #34495e
+//     text-decoration none
+//     outline 0
+//     cursor pointer
+//   a:not([data-scroll]):not(.search-result):not(.support-button):not(.header-link):hover:not(.button)
+//     color #286fa3
+//     background-color #cde3f3
+//   a:not([data-scroll]):not(.search-result):not(.support-button):not(.header-link):not(.diff-line-num)
+//     color #4e9bd4
+//     font-weight 700
+//     padding 0 2px
+//     transition all .3s ease
+//     border-bottom 1px dotted #4e9bd4
+
+//   h1, h2, h3, h4
+//     font-weight 600
+//     color #286fa3
+
+//   h1
+//     font-size 2rem
+//     margin 0 0 .7em
+//   h2
+//     font-size 1.5rem
+//     margin 1.5em 0 .8em
+//     padding-bottom .4em
+//     border-bottom 1px solid #ddd
+//   h3
+//     font-size 1.17rem
+//     margin 1.2em 0 0.9em
+
+// #content:not(.overview):not(.showcase):not(.showcase-code)
+//   h1, h2, h3
+//     font-weight 600
+//     color #286fa3
+//   h1
+//     font-size 2rem
+//     margin 0 0 .7em
+//   h2
+//     font-size 1.5rem
+//     margin 1.5em 0 .8em
+//     padding-bottom .4em
+//     border-bottom 1px solid #ddd
+//   h3
+//     font-size 1.17rem
+//     margin 1.2em 0 0.9em
+
+// #content.overview
+//   blockquote
+//     margin 2.5em 0
+//     padding 0
+//   blockquote p
+//     padding 0.5em 1em
+//     background-color #fafafa !important
+//     letter-spacing 0.5px
+
+//   img
+//     border 0
+//   strong
+//     font-weight 600
+//     color #286fa3
+//   hr
+//     margin 2em 0
+//     height 2px
+//     background-color #e5e5e5
+//     border 0
+//     padding 0
+
+//   em
+//     color #57a0d6
+//   p
+//     word-spacing 0.05em
+//   iframe
+//     border 0
+//   ul
+//     padding-left 1.25em
+//     line-height 1.4em
+//   ul ul, ul p
+//     margin 0.6em 0
+//   img
+//     max-width 100%
+//   span.light
+//     color #57a0d6
+//   span.info
+//     font-size 0.85em
+//     display inline-block
+//     vertical-align middle
+//     width 280px
+//     margin-left 20px
+//   figure, p, ul, ol
+//     margin 1.2em 0
+//   p, ul, ol
+//     line-height 1.6em
+//   ul, ol
+//     padding-left 1.5em
+
+//   iframe
+//     margin 1em 0
+//   table
+//     max-width 100%
+//     border 1px solid #eee
+//     border-radius 4px
+//     border-spacing 0
+//     box-shadow 1px 2px 2px 1px rgba(0,0,0,0.125)
+//   table th
+//     font-weight bold
+//     border-bottom 2px solid #eee
+//     text-align left
+//   table th, table td
+//     padding 10px 10px
+//   table tr
+//     vertical-align top
+//   table:not(.js-file-line-container) tr:nth-child(2n)
+//     background #f8f8f8
+//   figure table
+//     border 0
+//     box-shadow none
+//   figure table th
+//     border-bottom 0
+//   .highlight pre
+//     padding 0
+//   .highlight pre .line
+//     min-height 20px
+//   & > h1 i
+//     font-size 70%
+//     vertical-align middle
+//     color #286fa3
+
+//  body{
+//    background: linear-gradient(147deg,rgba(157, 158, 156, 0.2) 44%, rgba(79, 79, 78, 0.4) 88%);
+//  }
+
+  .login-app {
+    background: linear-gradient(147deg,rgba(157, 158, 156, 0.2) 44%, rgba(79, 79, 78, 0.4) 88%);
+    height: 100vh;
+    justify-content: center;
+    padding: 2em 3em;
+    flex-wrap: wrap;
+    .logo {
+    }
+  }
+  .title-login {
+    font-weight: bold;
+    font-size: 44px;
+    text-align: left;
+    color: #000f60;
+    text-align: center;
+  }
+  .forgot-pass {
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    color: #707070;
+    .link {
+      color: $color-text-sec;
+    }
+  }
+  .box-inputs {
+    @media screen and (min-width: 768px) {
+      margin: 0 35%;
+    }
+  }
+
+  .cls-1 {
+    fill: #00626f;
+  }
+
+  .cls-2 {
+    fill: #ea7734;
+  }

@@ -1,0 +1,86 @@
+1-Erros ferramenta notificações meninas 
+  -no mural, classificar o assuntos como SUGESTÃO ou DÚVIDA
+  -ordenar posts por participante
+  -historico de possicionamento
+   
+2-Rel histórico 
+
+3-Alarmes
+
+4-Rel participação
+
+5-melhorias sugeridas
+  -campo mural deveria possibilitar <enter>
+
+Fortalece, En
+
+
+easynvest
+return columnsToFilter.some(col => {
+  return cervejaria[col].toLo
+})
+
+
+    posts () { return this.$store.getters.mural.filteredPosts }
+
+    uploadFileTypesFilteredOptions () { return this.$store.getters['upload/fileTypesFilteredOptions'] }
+
+
+Será que pode subir a legenda pro topo da página?
+-Feito
+
+Tb se puder ver a funcionalidade” acesso a funcionalidades”, da Cesta, está com o somatório errado...
+-Feito
+
+O terceiro pedido é que o login ficou com algum errinho, pois ao sair apaga meu usuário e não consigo mais recuperar aquela lista já gravada pra trocar de usuário...
+-Quando um usuário faz o login pela primeira vez, é perguntado se os dados de login devem ser gravados.
+ Se a pessoa responde sim, os dados são gravados no cache e reutilizados no próximo login.
+ Fiz um teste e esta funcionalidade esta ok. No entando, quando o cache é apagado com CTRL + SHIFT + DEL, estes dados são perdidos.
+
+A quarta coisa e criar um usuário “visitante” só pra consulta, pra eu enviar pra meu professor
+-Feito
+
+Quinta: uma marcação no sistema qdo a decisão tiver sido tomada pelo moderador.
+-alterar estados dos requisitos dos projetos fechados. 'empate -> em negociação'
+-acertar rotina de fechamento de projeto.
+-criar campo de posicionamento final que sera calculado quando não houver impate.
+ quando houver impate, o moderador deverá preencher o campo.
+-criar flag para registrar que o moderador definiu o posicionamento final
+-ao definir manualmente o estado, setar o campo moderatorFinalState para true.
+
+Sexta: listagem de req que deram empate para o moderador decidir (pode fazer pra Cesta).
+-Feito
+
+
+createEmailAccount -> createUserByEmail
+
+createAuthAccountByEmail
+
+    <q-btn
+      label="Criar"
+      class="q-my-lg q-px-md ip-btn"
+      size="md"
+      @click="$store.dispatch('auth/createEmailAccount').then(() => $router.push({ name: 'mural' }))"
+   />
+
+NewEmailAccount
+
+
+
+identificação do usuário
+-reconhecimento facial
+-reconhecimento de voz
+-reconhecimento de digital
+-Características usuários inferir
+ 
+refinement -> refinementAssociation
+correlation -> correlationAssociation
+
+Características  usuários indagar
+-> Adaptação a tipos de usuários
+
+Características usuários inferir 
+-> Adaptação a tipos de usuários
+
+
+

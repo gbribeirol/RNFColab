@@ -1,0 +1,69 @@
+Diagrama das metas?
+
+Diagrama das requisitos?
+  nuvens escuras : requisitos
+
+Diagrama das posições?
+
+Quem poderá criar e editar os requisitos de uma construção?
+(só o eng. de requisito da construção)
+
+Exite campo para eng. requisito a nível de construção e requisto
+
+facilitador -> moderador
+
+-moderador (moderador tem que ter somente um)
+-requirement eng (pelo menos um)
+-customers
+-developer
+-architect
+-tester
+
+goals -> catalog
+
+tipo de requerimento:
+-funcional
+-não funcional
+-inverso
+
+correlação (Fortalece/Enfraquece/Afeta)
+refinamento (and/or)
+
+
+Operaticonalização: correlations: [] -> refinements
+
+==============================
+
+0).Easy Pill
+1).Hora Med                            
+2).Cuida Med
+3).Comprimidos em geral
+4).Med Take Care
+5).Pílula fácil
+6).Health care
+7).Medic Easy
+8).Health pill
+
+=====================================
+
+https://snc-rnf.firebaseapp.com
+
+ok para teste:
+ - cadastramento de construção
+ - cadastramento de metas e correlações
+ - cadastramento de operacionalizações e refinamentos
+
+em desenvolvimento:
+ - cadastramento de posições (1 dia)
+ - cadastramento de argumentos (1 dia)
+
+a desenvolver:
+ - somatório de posicionamentos (1 dia)
+ - lista de requisitos construído (1 dia)
+
+
+orange-7
+
+
+-Acertar limite de quantidade de exibição dos descendentes
+-exibir lista em ordem alfabetica
